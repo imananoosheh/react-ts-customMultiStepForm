@@ -45,7 +45,8 @@ function App() {
 
   function onSubmit(event: FormEvent) {
     event.preventDefault();
-    next();
+    if(!isLastStep) return next();
+    alert(`Hi ${data.firstName}!\nYour Account is successfully created and Ready to Use!`)
   }
   return (
     <div className="form-container">
