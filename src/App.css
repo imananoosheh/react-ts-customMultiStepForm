@@ -18,3 +18,14 @@
     gap: 0.5rem;
     justify-content: flex-end;
 }
+.form-wrapper > h2{
+    margin: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.form-wrapper > div{
+    display: grid;
+    gap: 1rem 0.5rem;
+    justify-content: flex-start;
+    grid-template-columns: auto minmax(auto, 400px);
+}
